@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tổ Ấm — Đăng nhập</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <!-- LEFT PANEL: signature shelf illustration -->
+    <section class="panel" aria-hidden="true">
+      <span class="eyebrow"><span class="dot"></span>TỔ ẤM · ĐỒ GIA DỤNG</span>
+
+      <svg class="shelf-illustration" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- upper shelf -->
+        <g class="shelf-item">
+          <ellipse cx="120" cy="176" rx="46" ry="7" fill="rgba(42,36,30,0.08)" />
+          <rect x="70" y="168" width="480" height="6" fill="var(--ink)" opacity="0.12" rx="2"
+            transform="translate(0,0)" />
+        </g>
+        <rect x="20" y="170" width="380" height="5" rx="2.5" fill="#2A241E" opacity="0.14" />
+
+        <!-- kettle -->
+        <g class="shelf-item" stroke="#AD5A3C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"
+          fill="none">
+          <ellipse cx="60" cy="168" rx="22" ry="6" fill="rgba(42,36,30,0.10)" stroke="none" />
+          <path d="M40 165 C40 145, 82 145, 82 165 C82 178, 74 168 62 168 L58 168 C46 168, 40 178, 40 165 Z" />
+          <path d="M82 152 L98 140" />
+          <path d="M40 150 C28 148, 26 162, 38 162" />
+          <circle cx="61" cy="140" r="3.4" fill="#AD5A3C" stroke="none" />
+        </g>
+
+        <!-- stacked plates -->
+        <g class="shelf-item" stroke="#46592F" stroke-width="3" stroke-linecap="round" fill="none">
+          <ellipse cx="150" cy="163" rx="26" ry="6.5" />
+          <ellipse cx="150" cy="155" rx="26" ry="6.5" />
+          <ellipse cx="150" cy="147" rx="26" ry="6.5" />
+        </g>
+
+        <!-- small plant on shelf 1 -->
+        <g class="shelf-item" stroke="#C4872C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+          fill="none">
+          <ellipse cx="222" cy="168" rx="16" ry="5.5" fill="rgba(42,36,30,0.08)" stroke="none" />
+          <path d="M208 166 L214 148 L232 148 L238 166 Z" />
+          <path d="M223 148 C219 130, 206 128, 200 116" />
+          <path d="M223 148 C226 128, 240 122, 244 108" />
+          <path d="M223 148 C223 126, 223 118, 223 104" />
+        </g>
+
+        <!-- lower shelf -->
+        <rect x="20" y="330" width="380" height="5" rx="2.5" fill="#2A241E" opacity="0.14" />
+
+        <!-- frying pan -->
+        <g class="shelf-item" stroke="#6C4A42" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"
+          fill="none">
+          <ellipse cx="90" cy="328" rx="20" ry="6" fill="rgba(42,36,30,0.10)" stroke="none" />
+          <ellipse cx="90" cy="308" rx="34" ry="10" />
+          <path d="M124 306 L162 296" />
+        </g>
+
+        <!-- mug with steam -->
+        <g class="shelf-item" stroke="#46592F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+          fill="none">
+          <ellipse cx="210" cy="328" rx="15" ry="5" fill="rgba(42,36,30,0.10)" stroke="none" />
+          <path d="M195 300 L197 322 C197 327, 223 327, 223 322 L225 300 Z" />
+          <path d="M225 305 C236 305, 236 318, 225 318" />
+          <path d="M203 292 C200 286, 206 284, 203 278" />
+          <path d="M213 292 C210 286, 216 284, 213 278" />
+        </g>
+
+        <!-- table lamp -->
+        <g class="shelf-item" stroke="#AD5A3C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+          fill="none">
+          <ellipse cx="300" cy="329" rx="17" ry="4.5" fill="rgba(42,36,30,0.10)" stroke="none" />
+          <path d="M300 300 L300 322" />
+          <path d="M285 322 L315 322" />
+          <path d="M282 278 L318 278 L308 300 L292 300 Z" />
+        </g>
+      </svg>
+
+      <div class="panel-footer">
+        <p class="panel-tagline">Đồ gia dụng tuyển chọn cho <em>tổ ấm</em> bạn đang vun đắp mỗi ngày.</p>
+        <span class="proof-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <path d="M5 13l4 4L19 7" />
+          </svg>
+          Hơn 50.000 gia đình tin dùng
+        </span>
+      </div>
+    </section>
+
+    <!-- RIGHT PANEL: login form -->
+    <section class="form-panel">
+      <div class="form-inner">
+        <span class="brand-tag"><span class="hole"></span>Tổ Ấm</span>
+
+        <h1>Chào mừng<br>bạn <em>trở lại</em></h1>
+        <p class="subcopy">Đăng nhập để tiếp tục mua sắm đồ gia dụng cho tổ ấm của bạn.</p>
+
+        <form>
+          <div class="field">
+            <label for="email">Email hoặc số điện thoại</label>
+            <div class="input-row">
+              <input type="text" id="email" name="email" placeholder="ban@vidu.com" autocomplete="username" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="password">Mật khẩu</label>
+            <div class="input-row">
+              <input type="password" id="password" name="password" placeholder="Nhập mật khẩu"
+                autocomplete="current-password" required>
+              <button type="button" class="toggle-pass" id="togglePass" aria-label="Hiện mật khẩu" aria-pressed="false">
+                <svg id="eyeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="row-between">
+            <label class="remember">
+              <input type="checkbox" name="remember">
+              Ghi nhớ đăng nhập
+            </label>
+            <a href="#" class="link-accent">Quên mật khẩu?</a>
+          </div>
+
+          <button type="submit" class="btn-primary" id="btnDangNhap">Đăng nhập</button>
+        </form>
+
+        <div class="divider">HOẶC ĐĂNG NHẬP VỚI</div>
+
+        <div class="social-row">
+          <button type="button" class="btn-social">
+            <span class="mono-icon" style="background:#C4872C;">G</span>
+            Google
+          </button>
+          <button type="button" class="btn-social">
+            <span class="mono-icon" style="background:#46592F;">F</span>
+            Facebook
+          </button>
+        </div>
+
+        <p class="signup-line">Chưa có tài khoản? <a href="./signup.html" class="link-accent">Đăng ký ngay</a></p>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('togglePass');
+    const passInput = document.getElementById('password');
+    const eyeIcon = document.getElementById('eyeIcon');
+    const eyeOff = '<path d="M17.94 17.94A10.94 10.94 0 0 1 12 19c-7 0-11-7-11-7a18.5 18.5 0 0 1 5.06-5.94M9.9 4.24A10.87 10.87 0 0 1 12 4c7 0 11 7 11 7a18.6 18.6 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/>';
+    const eyeOn = '<path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/>';
+
+    toggleBtn.addEventListener('click', () => {
+      const isPassword = passInput.type === 'password';
+      passInput.type = isPassword ? 'text' : 'password';
+      toggleBtn.setAttribute('aria-pressed', String(isPassword));
+      toggleBtn.setAttribute('aria-label', isPassword ? 'Ẩn mật khẩu' : 'Hiện mật khẩu');
+      eyeIcon.innerHTML = isPassword ? eyeOff : eyeOn;
+    });
+  </script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

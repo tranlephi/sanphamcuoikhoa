@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ gia dụng nổi bật — Tổ Ấm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/more.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="header-inner">
+            <span class="brand-tag"><span class="hole"></span>Tổ Ấm</span>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="#" class="active" id="trangchu">Trang chủ</a>
+                <a href="#" class="active">Sản phẩm</a>
+                <a href="#">Khuyến mãi</a>
+                <a href="#">Về chúng tôi</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Tìm kiếm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <circle cx="11" cy="11" r="7" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </button>
+                <button class="icon-btn active" aria-label="Giỏ hàng, 3 sản phẩm" id="cartButton">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M6 6h15l-1.5 9h-12z" />
+                        <path d="M6 6L4 2H2" />
+                        <circle cx="9" cy="20" r="1.4" />
+                        <circle cx="17" cy="20" r="1.4" />
+                    </svg>
+
+                    <span class="cart-count">3</span>
+                </button>
+                <button class="btn-login" id="btnLogin">Đăng nhập</button>
+                <button class="btn-logout" id="btnLogout" style="display:none;">Đăng xuất</button>
+                <button class="menu-toggle" aria-label="Mở menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= PAGE HEAD ================= -->
+    <div class="page-head">
+        <span class="eyebrow"><span class="dot"></span>ĐỒ GIA DỤNG THIẾT YẾU</span>
+        <h1>Những món đồ <em>quen thuộc</em><br>cho tổ ấm của bạn</h1>
+        <p>Từ quạt mát, chậu cây đến ấm đun nước — mọi thứ cần thiết cho ngôi nhà, tuyển chọn kỹ càng với mức giá hợp
+            lý.</p>
+    </div>
+
+    <!-- ================= PRODUCT CATALOG ================= -->
+    <section class="catalog">
+        <div class="product-grid">
+
+            <!-- Quạt bàn -->
+            <article class="product-card">
+                <div class="product-media">
+                    <span class="product-tag">MỚI</span>
+
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg>
+                    </button>
+
+                    <!-- ĐẶT ẢNH Ở ĐÂY -->
+                    <img src="image/quat.jpg" alt="Quạt bàn mini 3 tốc độ">
+                </div>
+
+                <div class="product-body">
+                    <p class="product-cat">Phòng khách</p>
+                    <h3 class="product-name">Quạt bàn mini 3 tốc độ</h3>
+                    <p class="product-desc">
+                        Cánh quạt an toàn, vận hành êm, phù hợp bàn làm việc và phòng ngủ.
+                    </p>
+
+                    <div class="product-foot">
+                        <span class="price">349.000₫</span>
+
+                        <button class="btn-add" aria-label="Thêm vào giỏ">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                                stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Chậu cây
+            <article class="product-card">
+                <div class="product-media">
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <svg viewBox="0 0 60 60" fill="none" stroke="#C4872C" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M18 50 L42 50 L36 28 L24 28 Z" />
+                        <path d="M30 28 C24 12, 12 10, 6 2" />
+                        <path d="M30 28 C34 12, 48 8, 54 -2" transform="translate(0,4)" />
+                        <path d="M30 28 C30 6, 30 -2, 30 -12" transform="translate(0,4)" />
+                    </svg>
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Sân vườn</p>
+                    <h3 class="product-name">Chậu cây gốm men rạn</h3>
+                    <p class="product-desc">Thiết kế tối giản, có lỗ thoát nước, phù hợp bàn làm việc hoặc ban công.</p>
+                    <div class="product-foot">
+                        <span class="price">219.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article> -->
+            <!-- Chậu cây -->
+            <article class="product-card">
+                <div class="product-media">
+
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg>
+                    </button>
+
+                    <!-- ĐẶT ẢNH CHẬU CÂY Ở ĐÂY -->
+                    <img src="image/chaugom.jpg" alt="Chậu cây gốm men rạn">
+
+                </div>
+
+                <div class="product-body">
+                    <p class="product-cat">Sân vườn</p>
+
+                    <h3 class="product-name">
+                        Chậu cây gốm men rạn
+                    </h3>
+
+                    <p class="product-desc">
+                        Thiết kế tối giản, có lỗ thoát nước, phù hợp bàn làm việc hoặc ban công.
+                    </p>
+
+                    <div class="product-foot">
+                        <span class="price">219.000₫</span>
+
+                        <button class="btn-add" aria-label="Thêm vào giỏ">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                                stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- Ấm đun nước -->
+            <article class="product-card">
+                <div class="product-media">
+                    <span class="product-tag" style="background:#46592F;">BÁN CHẠY</span>
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#AD5A3C" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M14 34 C14 24, 46 24, 46 34 C46 42, 40 36, 32 36 L28 36 C20 36, 14 42, 14 34 Z" />
+                        <path d="M46 28 L54 18" />
+                        <path d="M14 26 C6 24, 4 34, 12 34" />
+                        <circle cx="30" cy="18" r="3" fill="#AD5A3C" stroke="none" />
+                    </svg> -->
+
+                    <img src="image/amdun.jpg" alt="Ấm đun nước">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Nhà bếp</p>
+                    <h3 class="product-name">Ấm đun nước điện gốm</h3>
+                    <p class="product-desc">Dung tích 1.5L, giữ nhiệt lâu, tự động ngắt điện khi nước sôi.</p>
+                    <div class="product-foot">
+                        <span class="price"><small>520.000₫</small>459.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Đèn ngủ -->
+            <article class="product-card">
+                <div class="product-media">
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#6C4A42" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M30 26 L30 48" />
+                        <path d="M15 48 L45 48" />
+                        <path d="M12 4 L48 4 L38 26 L22 26 Z" />
+                    </svg> -->
+
+                    <img src="image/denban.jpg" alt="Đèn bàn gỗ sồi">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Phòng ngủ</p>
+                    <h3 class="product-name">Đèn bàn gỗ sồi</h3>
+                    <p class="product-desc">Ánh sáng vàng ấm, thân gỗ tự nhiên, có nút điều chỉnh độ sáng.</p>
+                    <div class="product-foot">
+                        <span class="price">529.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Chảo chống dính -->
+            <article class="product-card">
+                <div class="product-media">
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#6C4A42" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <ellipse cx="26" cy="32" rx="20" ry="11" />
+                        <path d="M46 30 L56 26" />
+                    </svg> -->
+                    <img src="image/chao.jpg" alt="Chảo chống dính đáy từ">
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Nhà bếp</p>
+                    <h3 class="product-name">Chảo chống dính đáy từ</h3>
+                    <p class="product-desc">Đường kính 28cm, tương thích mọi loại bếp, cán chịu nhiệt.</p>
+                    <div class="product-foot">
+                        <span class="price">489.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Quạt đứng -->
+            <article class="product-card">
+                <div class="product-media">
+                    <span class="product-tag">MỚI</span>
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#AD5A3C" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="30" cy="20" r="15" />
+                        <circle cx="30" cy="20" r="2.4" fill="#AD5A3C" stroke="none" />
+                        <path d="M30 20 C30 11, 39 11, 39 18 C39 21, 34 20.5, 30 20Z" />
+                        <path d="M30 20 C21 20, 19 29, 26 31 C29 32, 30 26, 30 20Z" />
+                        <path d="M30 35 L30 52" />
+                        <path d="M20 56 L40 56" />
+                    </svg> -->
+
+                    <img src="image/quatdung.jpg" alt="Quạt đứng điều khiển từ xa">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Phòng khách</p>
+                    <h3 class="product-name">Quạt đứng điều khiển từ xa</h3>
+                    <p class="product-desc">5 cánh, 3 chế độ gió, hẹn giờ tắt tự động, tiết kiệm điện.</p>
+                    <div class="product-foot">
+                        <span class="price"><small>890.000₫</small>749.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Bình hoa gốm -->
+            <article class="product-card">
+                <div class="product-media">
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#46592F" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M30 12 C22 12, 16 20, 16 28 C16 38, 24 46, 30 46 C36 46, 44 38, 44 28 C44 20, 38 12, 30 12 Z" />
+                        <path d="M30 22a6 6 0 1 0 0.1 0" />
+                    </svg> -->
+
+                    <img src="image/binhgom.jpg" alt="Bình hoa gốm men xanh">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Phòng khách</p>
+                    <h3 class="product-name">Bình hoa gốm men xanh</h3>
+                    <p class="product-desc">Kiểu dáng tròn cổ điển, phù hợp cắm hoa tươi hoặc hoa khô.</p>
+                    <div class="product-foot">
+                        <span class="price">299.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- Chậu cây treo -->
+            <article class="product-card">
+                <div class="product-media">
+                    <span class="product-tag" style="background:#46592F;">BÁN CHẠY</span>
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#C4872C" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M20 6 L30 16 L40 6" />
+                        <path d="M30 16 L30 24" />
+                        <path d="M18 46 L42 46 L36 26 L24 26 Z" />
+                        <path d="M30 26 C24 20, 18 22, 16 30" />
+                    </svg> -->
+
+                    <img src="image/chaucay.jpg" alt="Chậu cây treo dây gai">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Sân vườn</p>
+                    <h3 class="product-name">Chậu cây treo dây gai</h3>
+                    <p class="product-desc">Dây treo dệt thủ công, chậu gốm nhỏ gọn cho không gian ban công.</p>
+                    <div class="product-foot">
+                        <span class="price"><small>259.000₫</small>199.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Ấm siêu tốc -->
+            <article class="product-card">
+                <div class="product-media">
+                    <button class="btn-wishlist-mini" aria-label="Thêm vào yêu thích"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                        </svg></button>
+                    <!-- <svg viewBox="0 0 60 60" fill="none" stroke="#AD5A3C" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M20 14 L40 14 L38 46 L22 46 Z" />
+                        <path d="M20 22 L40 22" />
+                        <rect x="16" y="46" width="28" height="6" rx="2" />
+                    </svg> -->
+
+                    <img src="image/amsieutoc.jpg" alt="Ấm đun siêu tốc inox 2L">
+
+                </div>
+                <div class="product-body">
+                    <p class="product-cat">Nhà bếp</p>
+                    <h3 class="product-name">Ấm siêu tốc inox 2L</h3>
+                    <p class="product-desc">Đun sôi nhanh trong 5 phút, vỏ inox chống gỉ, tay cầm cách nhiệt.</p>
+                    <div class="product-foot">
+                        <span class="price">399.000₫</span>
+                        <button class="btn-add" aria-label="Thêm vào giỏ"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg></button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <span class="brand-tag"><span class="hole"></span>Tổ Ấm</span>
+                <p>Đồ gia dụng tuyển chọn cho ngôi nhà bạn yêu — bền đẹp, an toàn và giá hợp lý cho mọi gia đình Việt.
+                </p>
+                <div class="social-row">
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg></a>
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="5" />
+                            <circle cx="12" cy="12" r="4" />
+                            <circle cx="17.5" cy="6.5" r="1" />
+                        </svg></a>
+                    <a href="#" aria-label="Zalo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.6 8.6 0 0 1-3.4-.7L3 21l1.9-5.6a8.4 8.4 0 0 1-.9-3.9A8.4 8.4 0 0 1 12.6 3 8.4 8.4 0 0 1 21 11.5z" />
+                        </svg></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Danh mục</h4>
+                <ul>
+                    <li><a href="#">Nhà bếp</a></li>
+                    <li><a href="#">Phòng khách</a></li>
+                    <li><a href="#">Phòng ngủ</a></li>
+                    <li><a href="#">Sân vườn</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hỗ trợ</h4>
+                <ul>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Vận chuyển</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Theo dõi đơn hàng</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Liên hệ</h4>
+                <ul>
+                    <li><a href="#">1900 6868</a></li>
+                    <li><a href="#">hotro@toam.vn</a></li>
+                    <li><a href="#">123 Nguyễn Huệ, Q.1, TP.HCM</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Tổ Ấm. Bảo lưu mọi quyền.</span>
+            <span>Điều khoản dịch vụ · Chính sách bảo mật</span>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.btn-wishlist-mini').forEach(btn => {
+            btn.addEventListener('click', () => btn.classList.toggle('active'));
+        });
+    </script>
+    <script src="./js/return.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/shopping.js"></script>
+</body>
+
+</html>
